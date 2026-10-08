@@ -163,6 +163,34 @@ button:hover {
   margin: 30px 0;
   line-height: 1.6;
 }
-.CTA {background-color: #4f1622; color: #ede6d5; width: 100%; text-align: center; border-radius: 12px; padding: 20px 20px;}
+.CTA {background-color: #4f1622; color: #ede6d5; width: 100%; text-align: center; border-radius: 12px; padding: 20px 20px; margin: 50px;}
 .CTA button {background-color: #ede6d5; color: #4f1622; border-radius: 12px; padding: 10px 10px; border: 2px solid #ede6d5;}
 .CTA button:hover {background-color: #4f1622; color: #ede6d5; border: 2px solid #ede6d5;}
+footer {
+  padding: 40px;
+  background-color: #ede6d5;
+  color: #4f1622;
+  text-align: center;
+  margin right: 50px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+footer li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer a {
+  color: #4f1622;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #8b5e3c;
+  text-decoration: underline;
+}
