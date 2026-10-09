@@ -1,13 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header><nav><ul class="explore-navbar"><li><a href="index.html">USEONCE</a></li><li><input type="search" placeholder="🔎Find something to borrow" ></li><div class="grp"><a href="saved.html">♡</a></li><li><a href="account.html">👤</a></div></ul></nav></header>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="explore-navbar">
+          <li><a href="index.html">USEONCE</a></li>
+          <li><input type="search" placeholder="search button" /></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="h1-explore">Find something worth borrowing</h1>
+      <h3 class="h3-explore">Discover useful things without buying them.</h3>
+      <div class="filter-row">
+        <label for="category">Filter by category:</label>
+        <select id="category" name="category">
+          <option value="all">All Items</option>
+          <option value="electronics">Electronics</option>
+          <option value="home">Home & Kitchen</option>
+          <option value="fashion">Fashion & Accessories</option>
+          <option value="outdoor">Outdoor & Travel</option>
+          <option value="events">Events & Parties</option>
+          <option value="tools">Tools & DIY</option>
+        </select>
+
+        <label for="Sort by">Sort by</label
+        ><select name="select" id="select">
+          <option value="Recommended">Recommended</option>
+          <option value="Newest">Newest</option>
+          <option value="Price: Low to High">Price: Low to High</option>
+          <option value="Price: High to Low">Price: High to Low</option>
+        </select>
+      </div>
+
+      <div class="grid">
+        <div>
+          <img src="images/explore1.webp" alt=" Neon happy birthday sign" />
+        </div>
+        <div><img src="images/explore2.jpg" alt="A picture of a tent" /></div>
+        <div>
+          <img src="images/explore3.jpg" alt="A picture of a mixer" />
+          <div>
+            <img src="images/explore4.webp" alt="A picture of a projector" />
+          </div>
+          <div>
+            <img src="images/explore5.webp" alt="A picture of a camera" />
+          </div>
+          <div>
+            <img
+              src="images/explore6.webp"
+              alt="A picture of a cordless drilling tool"
+            />
+          </div>
+          ```html
+          <div>
+            <img
+              src="images/explore7.webp"
+              alt="A formal dress available to borrow"
+            />
+          </div>
+          <div>
+            <img
+              src="images/explore8.webp"
+              alt="A set of travel suitcases available to borrow"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

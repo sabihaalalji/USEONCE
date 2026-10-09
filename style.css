@@ -196,5 +196,55 @@ footer a:hover {
   color: #8b5e3c;
   text-decoration: underline;
 }
-.explore-navbar {display: flex; flex-direction: row; background-color: #ede6d5; color: #4f5d2f; padding: 0; text-decoration: none; justify-content: space-between; gap: 20px; padding-inline: 50px; padding-block: 20px;}
+.explore-navbar {display: flex; flex-direction: row; background-color: #EAD5D9; color: #4f5d2f; padding: 0; text-decoration: none; justify-content: space-between; gap: 20px; padding-inline: 50px; padding-block: 20px;}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+.filter-row select {
+  padding: 10px 14px;
+  background-color: #EAD5D9;
+  color: #4f1622;
+  border: 1px solid #4f5d2f;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.filter-row select {
+  padding: 10px 14px;
+  background-color: #EAD5D9;
+  color: #4f1622;
+  border: 1px solid #4f5d2f;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.filter-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.filter-row select {
+  margin: 0;
+}
+
+
 .grp {display: flex; gap: 15px;}
+.h1-explore {font-family: sans-serif; font-weight: bold; color: #4f1622; text-align: center;}
+.h3-explore {text-align: center;}
+body {body {
+  display: grid;
+  place-items: center;
+}}
