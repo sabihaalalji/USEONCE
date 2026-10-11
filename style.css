@@ -349,3 +349,34 @@ header {
   border-bottom: 1px solid #d8d0bc;
   padding: 40px 0;
 }
+.explore {font-family: Georgia, 'Times New Roman', Times, serif; color: #4F5D2F; text-align: center;}
+.explore button {background-color: #4F5D2F; color: #ede6d5; padding: 15px; border-radius: 12px;}
+.kits {color: #4f5d2f;}
+.plans {display: flex; grid-template-columns: 1fr 1fr;}
+.kit1 img {width: 500px; height: 500px;   }
+.kit2 img {width: 500px; height: 500px; }
+.kit1 {padding: 50px; color: #3f4a25;}
+
+.kit2 {padding: 50px; color: #3f4a25;}
+.kit1 a {color: #4f1622; font-weight: bolder; font-size: larger; text-decoration: none;}
+.kit2 a {color: #4f1622; font-weight: bolder; font-size: larger; text-decoration: none;}
+.kit1 a:hover {color: #7A8750;}
+.kit2 a:hover {color: #7A8750;}
+.birthday {display: flex; }
+.birthday img {width: 500px;}
+.bday-image {padding: 60px;}
+.bday {padding: 60px; color: #4F5D2F;}
+.bday-info {border: none;
+  border-top: 1px solid #D8D0BC;
+  margin: 20px 0;}
+  .kit-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px; ;
+} .kit-card {padding: 20px; background-color: #ede6d5; border-radius: 12px; border-color: #4f5d2f;}
+.kit-card {
+  border-bottom: 1px solid #4F5D2F;
+  padding: 12px 0; text-align: center;
+}
+.s {text-align: center; color: #4F5D2F;}
+.s button {padding: 12px; background-color: #4F5D2F; color: #ede6d5; border-radius: 12px;}
