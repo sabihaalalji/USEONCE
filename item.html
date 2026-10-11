@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="useonce"><a href="index.html">USEONCE</a></li>
+          <li><a href="explore.html">DISCOVER</a></li>
+
+          <li><a href="list-item.html">LEND</a></li>
+          <li><a href="guides.html">GUIDES</a></li>
+          <li><a href="Our-mission.html">OUR MISSION</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>List an Item</h1>
+        <p>Give something you own a second story.</p>
+      </section>
+      <div>Item Name <input type="Name" /></div>
+      <div>
+        <label for="category">Category</label>
+        <select name="category" id="category">
+          <option value="">Choose a category</option>
+          <option value="electronics">Electronics & Photography</option>
+          <option value="kitchen">Kitchen & Appliances</option>
+          <option value="outdoors">Camping & Outdoors</option>
+          <option value="tools">Tools & DIY</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div>
+  <label for="description">Description</label>
+  <textarea
+    name="description"
+    id="description"
+    placeholder="Describe your item..."
+    rows="5"
+  ></textarea>
+</div>
+      <div>
+        <label for="condition">Condition</label>
+        <select name="condition" id="condition">
+          <option value="">Choose condition</option>
+          <option value="new">New</option>
+          <option value="like-new">Like New</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+        </select>
+      </div>
+      <div>Rental Price (Ksh) <input type="Rental Price (Ksh)" /></div>
+      <div>Location <input type="Location" /></div>
+      <div>
+  <label for="photo">Upload Photo</label>
+  <input type="file" name="photo" id="photo" accept="image/*">
+</div>
+    </main>
+    <footer>
+  <div class="footer-top">
+    <h2>USEONCE.</h2>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explore.html">Discover</a>
+      <a href="list-item.html">Lend</a>
+      <a href="guides.html">Guides</a>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Borrow more. Own less.</p>
+    <p>© 2026 USEONCE</p>
+  </div>
+</footer>
+  </body>
+</html>
