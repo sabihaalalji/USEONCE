@@ -325,3 +325,27 @@ header {
   margin: 0;
   padding: 0;
 }
+.trust {display: flex; }
+.tns {font-family: Georgia, 'Times New Roman', Times, serif; color: #4f5d2f; font-weight: bold; gap: 50px;}
+.tns-image {gap: 50px; margin-left: auto; }
+.para {width: 300px; margin: 0 auto; text-align: center;}
+.trust {
+  border-bottom: 1px solid #d8d0bc; padding: 40px;
+}.intro {display: flex; grid-template-columns: 1fr 1fr; margin: 40px; gap: 50px;}
+.info {font-family: Georgia, 'Times New Roman', Times, serif; color: #4F5D2F; }
+.intro img {width: 500px;}
+.intro {
+  border-bottom: 1px solid #d8d0bc;
+  padding: 40px 0;
+} .essential { display: flex; grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #d8d0bc;
+  padding: 40px 0;
+}
+.essential img {width: 500px;}
+.ess {color: #4F5D2F;}
+.find img {width: 500px;}
+.find {display: flex; gap: 50px; font-family: Georgia, 'Times New Roman', Times, serif; color: #4F5D2F;}
+.find {
+  border-bottom: 1px solid #d8d0bc;
+  padding: 40px 0;
+}
