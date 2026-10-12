@@ -676,3 +676,9 @@ header {
   height: 150px;
   object-fit: contain;
 }
+.tick {text-align: center; color: #4f5d2f; padding: 60px;}
+.fa-check {
+  font-size: 40px;
+} .cardd {background-color: beige; text-align: center; color: #4f5d2f; padding: 12px; border-radius: 12px;}
+.back {padding: 25px; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bolder; }
+.back a {text-decoration: none; color: #4f5d2f;}
