@@ -682,3 +682,23 @@ header {
 } .cardd {background-color: beige; text-align: center; color: #4f5d2f; padding: 12px; border-radius: 12px;}
 .back {padding: 25px; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bolder; }
 .back a {text-decoration: none; color: #4f5d2f;}
+.mission {background-color: #E8E9D9;
+  border-radius: 15px;
+  padding: 40px 30px;
+  text-align: center; color: #3f4a25;}
+  .pics {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.pics img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex: 1;
+}
+.r {text-align: center; color: #4f5d2f;}
+.story {padding: 12px; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif; color: #4f5d2f; text-align: center; font-weight: bolder;}
