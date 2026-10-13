@@ -1040,3 +1040,6 @@ img {
   object-fit: cover;
   display: block;
 }
+.Search-bar {display: flex; gap: 10px;}
+.Search-bar input {padding: 12px; border-radius: 10px;}
+.Search-bar button {background-color: #4F5D2F; color: #c8c4b3; font-weight: bolder;}
