@@ -1107,6 +1107,7 @@ img {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+
 }
 .testimonials div {
   flex: 1;
@@ -1119,3 +1120,4 @@ img {
   box-shadow: 0 4px 12px #00000010;
 }
 .testimonials div:hover {transform: translateY(-5px); transition: 0.3s ease;}
+.stats {display: flex; gap: 50px; font-weight: bolder; font-size: larger; text-align: center; justify-content: center;}
