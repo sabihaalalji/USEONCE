@@ -11,6 +11,7 @@ ul {
 }
 li {
   list-style: none;
+  
 }
 .useonce {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -838,3 +839,203 @@ img {
 .cv {text-decoration: none; background-color: #4f5d2f; color: #ede6d5; padding: 9px; border-radius: 12px;}
 .fg {text-decoration: none; background-color: #4f5d2f; color: #ede6d5; padding: 9px; border-radius: 12px;}
 .q {text-decoration: none; background-color: #4F5D2F; color:#ede6d5 ; padding: 9px; border-radius: 12px;}
+```css
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+
+  .popular-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .popular-card {
+    width: 100%;
+  }
+
+  .occasions-grid,
+  .benefits,
+  .plans,
+  .items,
+  .kit-items {
+    grid-template-columns: 1fr;
+  }
+
+  .lend,
+  .intro,
+  .essential,
+  .find,
+  .birthday {
+    flex-direction: column;
+  }
+
+  .intro img,
+  .essential img,
+  .find img,
+  .kit1 img,
+  .kit2 img,
+  .birthday img {
+    width: 100%;
+  }
+
+  .kit1,
+  .kit2 {
+    padding: 15px;
+  }
+
+  .items {
+    margin: 15px 0;
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul,
+  .explore-navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 10px;
+  }
+
+  .useonce {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .Hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-content h2 {
+    font-size: 22px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-content button {
+    padding: 8px 12px;
+  }
+}
+.hero-image { width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+object-fit: contain;}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+
+  .popular-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .popular-card {
+    width: 100%;
+  }
+
+  .occasions-grid,
+  .benefits,
+  .plans,
+  .items,
+  .kit-items {
+    grid-template-columns: 1fr;
+  }
+
+  .lend,
+  .intro,
+  .essential,
+  .find,
+  .birthday {
+    flex-direction: column;
+  }
+
+  .intro img,
+  .essential img,
+  .find img,
+  .kit1 img,
+  .kit2 img,
+  .birthday img {
+    width: 100%;
+  }
+
+  .kit1,
+  .kit2 {
+    padding: 15px;
+  }
+
+  .items {
+    margin: 15px 0;
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul,
+  .explore-navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 10px;
+  }
+
+  .useonce {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .Hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-content h2 {
+    font-size: 22px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-content button {
+    padding: 8px 12px;
+  } .Hero img {
+  height: 300px;
+}
+} .Hero img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
