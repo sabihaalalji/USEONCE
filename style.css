@@ -933,11 +933,12 @@ img {
     padding: 8px 12px;
   }
 }
-.hero-image { width: 100%;
-  height: 300px;
+.hero-image  {
+  width: 100%;
+  height: 620px;
   object-fit: cover;
-  display: block;
-object-fit: contain;}
+  object-position: center;
+}
 
 @media (max-width: 768px) {
   main {

@@ -2,156 +2,165 @@
 
 **Need it. Use it. Return it.**
 
-## 1. About the Project
+## About the Project
 
-USEONCE is a website based on the idea of borrowing items instead of buying them when you only need them for a short time.
+USEONCE is a website concept that encourages people to borrow items they need temporarily instead of purchasing things they may only use once or occasionally.
 
-For example, someone might need a camera for a photoshoot or a tent for a camping trip but not want to buy one. USEONCE explores how people could find and borrow these items more easily.
+The platform aims to make borrowing and lending useful items more convenient, affordable, and sustainable.
 
-## 2. Problem Statement
+## The Problem
 
-People often spend money on items they rarely use, which can also take up storage space. USEONCE explores borrowing as a more affordable alternative to buying everything you need.
+People often spend money purchasing items they only need for a short period, such as cameras, camping equipment, party decorations, and kitchen appliances. These items may remain unused after their intended purpose.
 
-## 3. Target Audience
+USEONCE explores an alternative by allowing people to discover items they could borrow rather than buy.
 
-- Students looking for affordable items.
-- Families planning events and celebrations.
-- People organising photoshoots or camping trips.
-- People who want to lend items they already own.
+## Target Audience
 
-## 4. Project Goals
+- People who need items for occasional use.
+- Students and individuals looking for affordable alternatives to buying.
+- People who own items they would like to lend to others.
+- People interested in sharing resources and reducing unnecessary purchases.
 
-- Make it easy to browse and discover items.
-- Show item details before borrowing.
-- Organise items by category and occasion.
-- Explain how borrowing works.
-- Provide a page for listing items.
-- Include account and dashboard interface designs.
-- Create a consistent and responsive website.
+## Project Goals
 
-## 5. User Stories
+- Encourage borrowing instead of purchasing occasionally used items.
+- Present available items through a clear, organized layout.
+- Display item details and daily rental prices.
+- Introduce themed kits for celebrations and outdoor activities.
+- Demonstrate a simple borrowing journey.
+- Promote responsible borrowing, lending, and returning.
 
-1. As a borrower, I want to explore items so that I can find what I need without buying it.
-2. As a visitor, I want to search for items so that I can find them more easily.
-3. As a borrower, I want to view item details so that I can decide whether the item suits my needs.
-4. As a first-time visitor, I want to understand how borrowing works so that I know what to expect.
-5. As someone planning an event, I want to browse items by occasion so that I can find suitable items.
-6. As an item owner, I want to list my items so that other people can discover them.
-7. As a borrower, I want to read the safety guidelines so that I understand responsible borrowing.
-8. As a member, I want to view my dashboard so that I can keep track of my activity.
-9. As a staff member, I want to view item records so that I can understand how the platform could be managed.
-10. As a borrower, I want to see a confirmation page so that I know what happens next.
+## Pages and Features
 
-## 6. Website Pages
+### 1. Home Page (`index.html`)
 
-| Page | Purpose |
+- Introduces the USEONCE concept.
+- Features a hero section encouraging visitors to explore items.
+- Includes a Discover by Occasion section.
+- Displays popular items.
+- Explains the borrowing process through a How It Works section.
+- Includes navigation and footer links.
+
+### 2. Explore Items (`explore.html`)
+
+- Displays items available to borrow.
+- Uses item cards with images, names, and daily rental prices.
+- Features individual items and themed kits.
+- Provides a starting point for visitors to explore available options.
+
+### 3. Item Details (`item-details.html`)
+
+- Presents information about selected items and kits.
+- Includes descriptions and daily rental prices.
+- Features a Celebration Kit and a Camping Kit.
+- Includes a Borrow button leading to the confirmation page.
+
+### 4. List an Item (`list-item.html`)
+
+- Provides a form layout for people who want to lend their items.
+- Includes fields for item name, category, description, condition, rental price, location, and photo upload.
+- Includes categories such as Electronics & Photography, Kitchen & Appliances, Camping & Outdoors, Tools & DIY, and Other.
+
+### 5. Borrow Confirmation (`borrow-confirmation.html`)
+
+- Presents a confirmation-style screen for the borrowing journey.
+- Uses visual confirmation elements and icons.
+- Organizes information around the selected item, collection, and return.
+
+### 6. Trust and Safety (`Trust-and-safety.html`)
+
+- Introduces the website's approach to responsible borrowing and lending.
+- Emphasizes trust, confidence, and returning borrowed items responsibly.
+
+### 7. Our Mission (`Our-mission.html`)
+
+- Explains the purpose behind USEONCE.
+- Communicates the idea that access to useful items can matter more than ownership.
+- Uses images and content to support the project's mission.
+
+## Design and Style Guide
+
+USEONCE follows a warm, minimal design intended to feel welcoming and easy to navigate.
+
+| Element | Design Choice |
 |---|---|
-| Home | Introduces USEONCE and highlights popular items. |
-| Explore Items | Allows visitors to browse available items. |
-| Item Details | Shows information about an item and a borrowing option. |
-| Categories | Organises items into different categories. |
-| Occasions | Helps visitors find items for specific events. |
-| List an Item | Provides a form for listing an item. |
-| Saved Items | Demonstrates how items could be saved for later. |
-| Account | Displays the account interface. |
-| How It Works | Explains the borrowing process. |
-| Trust and Safety | Covers responsible borrowing and lending. |
-| Our Mission | Explains the purpose behind USEONCE. |
-| Borrowing Confirmation | Shows the next screen in the borrowing journey. |
-| User Dashboard | Demonstrates how members could view their activity. |
-| Staff Dashboard | Demonstrates how staff could view item and borrowing records. |
+| Primary colour | Olive green `#4F5D2F` |
+| Background colour | Cream `#F7F3E8` |
+| Card background | `#EDE6D5` |
+| Border colour | `#D8D0BC` |
+| Accent colour | Burgundy `#4F1622` |
+| Heading and logo font | Georgia |
+| Layout | Sections, item cards, navigation, and footer |
+| Visual style | Minimal, warm, and consistent |
 
-### Main User Journey
+The website uses rounded cards, subtle borders, consistent typography, imagery, and icons to maintain a unified appearance across its pages.
 
-Home → Explore Items → Item Details → Borrow → Confirmation
+## Technologies Used
 
-## 7. Features
+- **HTML5:** Structures the website pages, content, navigation, and forms.
+- **CSS3:** Styles the layouts, colours, typography, spacing, and visual states.
+- **Font Awesome 4.7.0:** Provides icons.
+- **Git and GitHub:** Used for version control and project hosting.
 
-- **Item cards:** Display items visitors can explore.
-- **Item details:** Provide more information before borrowing.
-- **Search field:** Provides a search interface.
-- **Listing form:** Allows visitors to enter item information.
-- **CSS-only modals:** Provide additional information where implemented.
-- **How It Works:** Explains the borrowing process.
-- **User and staff dashboards:** Demonstrate how information could be organised.
-- **Confirmation page:** Completes the example borrowing journey.
-- **Testimonials and statistics:** Demonstrate how user feedback and platform information could be displayed.
+The project uses HTML and CSS without JavaScript or a backend.
 
-The website is a frontend project built with HTML and CSS. Features requiring JavaScript, a database, or a backend, such as real-time search, account authentication, saving data, and payment processing, are not fully functional.
+## Design Decisions
 
-## 8. Design and Style Guide
+### Themed Kits
 
-I chose a cream and olive-green colour scheme to give USEONCE a simple, warm look.
+Celebration and camping kits distinguish USEONCE from a website that lists only individual items. They allow visitors to explore collections of items suited to particular activities.
 
-| Element | Colour |
-|---|---|
-| Main brand colour | `#4F5D2F` |
-| Background | `#EDE6D5` |
-| Borders | `#D8D0BC` |
-| White | `#FFFFFF` |
-| Text | `#222222` |
+### Daily Rental Prices
 
-**Typography:** Georgia is used for headings and the logo, with sans-serif fonts for supporting text.
+Displaying daily prices helps visitors understand the intended cost of borrowing items.
 
-**Layout:** The website uses cards and CSS Grid to display items, while Flexbox helps arrange navigation and other elements. Rounded corners, subtle borders, and consistent spacing are used throughout the pages.
+### Consistent Visual Identity
 
-## 9. Technologies Used
+A shared colour palette, typography, and card styling connect the different pages and create a consistent experience.
 
-- HTML5 for page structure.
-- CSS3 for styling and layouts.
-- Tailwind CSS for utility-based styling where implemented.
-- Git and GitHub for version control.
-- GitHub Pages for hosting the website.
+### Separate Item Details Page
 
-The project focuses on frontend development without JavaScript or a backend.
+Providing a dedicated details page allows visitors to learn more about an item before proceeding to the borrowing confirmation screen.
 
-## 10. Responsive Design
+### Trust and Mission Pages
 
-The website is designed to work on mobile phones, tablets, and desktops.
+These pages communicate the project's values and emphasize responsible sharing.
 
-CSS media queries are used to adjust layouts for different screen sizes. Item grids can display fewer columns on smaller screens, while content and navigation are adjusted to fit the available space.
+## Challenges
 
-## 11. Accessibility
+- Maintaining consistent styling across multiple pages.
+- Organizing navigation between pages.
+- Designing clear item cards and detail sections.
+- Demonstrating a borrowing journey using HTML and CSS alone.
+- Balancing visual design with project requirements.
 
-Some of the accessibility considerations include:
+## Limitations
 
-- Using semantic HTML and a clear heading structure.
-- Adding labels to form fields.
-- Providing alternative text for meaningful images.
-- Maintaining readable text and colour contrast.
-- Including visible focus styles for keyboard navigation.
-- Keeping layouts usable on smaller screens.
+USEONCE is a front-end website prototype. It demonstrates the intended layout and user journey but is not a fully operational borrowing platform.
 
-## 12. Design Decisions and Challenges
+Forms and confirmation screens are visual demonstrations. Real payments, user accounts, booking management, and live inventory are not implemented.
 
-I chose borrowing as the main concept because many items are only needed occasionally. Categories, occasions, and item cards help visitors find relevant items without having to browse everything.
+## Future Improvements
 
-One of the main challenges was keeping the different pages consistent while learning how to use CSS for layouts, spacing, and responsive design. Another challenge was demonstrating a borrowing process using only HTML and CSS.
+- Add a backend to manage item listings and borrowing requests.
+- Implement functional search and filtering.
+- Introduce user accounts and borrowing history.
+- Add secure payment processing.
+- Implement real-time item availability and booking management.
+- Improve accessibility and test responsiveness across different devices.
 
-## 13. Future Improvements
+## Conclusion
 
-If I continue developing USEONCE, I would like to add:
+USEONCE explores how a digital platform could help people access items they need without purchasing everything themselves. Through individual listings, themed kits, and a simple borrowing journey, the project demonstrates a practical concept built using HTML and CSS.
 
-- Working search and filters.
-- User accounts and a database.
-- Real borrowing requests and availability tracking.
-- Notifications for collection and return dates.
-- Reviews and ratings.
-- Secure payment processing.
-- Functional user and staff dashboards.
+## Project Links
 
-## 14. Screenshots
+**GitHub Repository:**https://github.com/sabihaalalji/USEONCE .
 
-### Homepage
+**Live Website:** https://sabihaalalji.github.io/USEONCE/index.html.
 
-![USEONCE Homepage](images/screenshot.png)
+## Screenshots
 
+## Screenshots
 
-## 15. Project Links
-
-- **Live Website:** https://sabihaalalji.github.io/USEONCE/
-- **GitHub Repository:** https://github.com/sabihaalalji/USEONCE
-
-## 16. Conclusion
-
-USEONCE explores how borrowing can be an alternative to buying items that are only needed occasionally. Building the project has helped me practise HTML, CSS, page navigation, responsive layouts, and version control while developing a website around a practical problem.
+![USEONCE Website Screenshot](images/screenshot.png)
