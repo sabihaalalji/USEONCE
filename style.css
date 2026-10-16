@@ -9,6 +9,7 @@ ul {
   padding: 20px 40px;
   justify-content: center;
 }
+img {width: 100%; object-fit: cover; display: block;}
 li {
   list-style: none;
 }
@@ -691,10 +692,15 @@ header {
   border-radius: 12px;
   border: 1px solid #d8d0bc;
 }
-.item-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+.item-grid{
+  
+ display:flex;
+ flex-wrap: wrap;
+  
+  
+ 
+  justify-content: center;
+  align-items: center;
 }
 
 .canon,
@@ -702,9 +708,9 @@ header {
 .tent,
 .drill {
   display: flex;
-  align-items: center;
+  background-color: #7a8750;
   gap: 10px;
-  background-color: #ede6d5;
+  
   padding: 15px;
 }
 
@@ -713,11 +719,36 @@ header {
   flex-direction: row-reverse;
 }
 
-.item-grid img {
-  width: 40%;
-  height: 150px;
-  object-fit: contain;
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
+
+.card-items {
+  background-color: #e8e9d9;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 550px;  
+  box-sizing: border-box;
+}
+
+.card-items img {
+  width: 100%;
+  height: 200px;   
+  object-fit: cover; 
+  display: block;
+  border-radius: 8px;
+}
+
+
+
+
+
 .tick {
   text-align: center;
   color: #4f5d2f;
@@ -1107,7 +1138,6 @@ img {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-
 }
 .testimonials div {
   flex: 1;
@@ -1119,5 +1149,32 @@ img {
   border-radius: 12px;
   box-shadow: 0 4px 12px #00000010;
 }
-.testimonials div:hover {transform: translateY(-5px); transition: 0.3s ease;}
-.stats {display: flex; gap: 50px; font-weight: bolder; font-size: larger; text-align: center; justify-content: center;}
+.testimonials div:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+.stats {
+  display: flex;
+  gap: 50px;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+}
+.item-detail {
+  font-style: italic;
+  color: black;
+  font-weight: bolder;
+}
+.each-item-details {
+  font-style: italic;
+  color: #4f5d2f;
+  font-weight: bolder;
+}
+.borrow-button {
+  background-color: white;
+  display: inline-block;
+  padding: 13px 24px;
+  border: #3f4a25;
+  border-radius: 12px;
+}
