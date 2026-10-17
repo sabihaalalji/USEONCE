@@ -163,4 +163,4 @@ USEONCE explores how a digital platform could help people access items they need
 
 ## Screenshots
 
-![USEONCE Website Screenshot](images/screenshot.png)
+![USEONCE Website Screenshot](screenshot.jpeg)
