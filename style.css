@@ -730,7 +730,7 @@ header {
   background-color: #e8e9d9;
   padding: 12px;
   border-radius: 12px;
-  
+
   
  
 
@@ -1178,3 +1178,5 @@ img {
   border-radius: 12px;
 }
 .borrow.button {text-decoration: none; text-align: center; color: #4f5d2f; font-size: xx-large; font-weight: bolder;}
+.explore-h1 {text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: #3f4a25;}
+.mission-h1 {color: #3f4a25; text-align: center;}
